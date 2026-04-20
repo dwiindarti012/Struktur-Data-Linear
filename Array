@@ -1,0 +1,12 @@
+data = [10,20,30,40]
+
+#Akses
+print(data[0])
+
+#Tambah
+data.append(50)
+print(data)
+
+#Hapus
+data.remove(20)
+print(data) 
