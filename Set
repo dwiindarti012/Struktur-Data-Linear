@@ -1,0 +1,19 @@
+basket = {'apple','orange','apple','pear','orange','banana'}
+print("isi basket: ", basket)
+
+#mengecek keanggotaan
+print('orange' in basket)
+print('crabgrass' in basket)
+
+#set dari dua kata (huruf unik)
+a = set('abracadabra')
+b = set('alacazam')
+
+print("set a: ", a)
+print("set b: ", b)
+
+#operasi set
+print(a - b)
+print(a | b)
+print(a & b)
+print(a ^ b)
