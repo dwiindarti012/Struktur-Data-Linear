@@ -1,0 +1,15 @@
+from collections import deque
+
+antrian_mahasiswa = deque()
+
+#enqueue
+antrian_mahasiswa.append("Dwi")
+antrian_mahasiswa.append("Alda")
+antrian_mahasiswa.append("Haura")
+
+print("Antrian awal     : ", list(antrian_mahasiswa))
+
+#dequeue
+dilayani = antrian_mahasiswa.popleft()
+print("Dilayani         : ", dilayani)
+print("Antrian sekarang : ", list(antrian_mahasiswa))
