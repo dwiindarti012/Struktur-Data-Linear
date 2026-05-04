@@ -1,0 +1,20 @@
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+#membuat node
+node1 = Node("gerbong A")
+node2 = Node("gerbong B")
+node3 = Node("gerbong C")
+
+node1.next = node2
+node2.next = node3
+
+current = node1
+while current:
+    if current.next:
+        print(current.data, end="->")
+    else:
+        print(current.data, end="")
+    current = current.next
