@@ -1,0 +1,14 @@
+stack = []
+
+kata = input("Kata awal                    :")
+
+#pus
+for huruf in kata:
+    stack.append(huruf)
+
+#pop
+hasil = ""
+while stack:
+    hasil += stack.pop()
+
+print("Hasil kata setelah di balik:", hasil)
